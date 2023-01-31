@@ -1,0 +1,29 @@
+#contact-container{
+    background-image: url("../image/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#contact-container2{
+    height: auto;
+    background-color: white;
+    margin-top: -100px;
+}
+#contact-form{
+    background-color: rgb(82, 75, 75);
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.contact-color{
+    color: white;
+}
+.contact-color-black{
+    color: black;
+}
