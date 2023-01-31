@@ -7,8 +7,7 @@ const App =()=>{
 
     return(
         <>
-        <
-    <Team/>
+    <Team/>,
     <Contact/>
     <Home/>
         </>
