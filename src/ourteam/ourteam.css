@@ -37,33 +37,38 @@
     color: rgba(254, 206, 60, 0.97);
 
 }
-#teamcard{
+.teamcard{
     background: #F1F1F1;
-    height: 300px;
-    width: 100%;
-    margin-top: 20px;
+    height: auto;
+    /* width: 100%; */
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     /* align-items: center; */
 }
 .teamcard1{
-    /* width: 100%; */
     height: 50%;
     background: rgba(254, 206, 60, 0.47);
-    display: flex;
-    justify-content: center;
+    margin-top: 100px;
+  
+  
 }
-/* .teamcir{
-    height: 70%;
-    width: 30%;
-    background-color: white;
-    border-radius: 50%;
-    margin-top: -40px;
-} */
+.team-row-web{
+    /* display: flex; */
+    justify-content: center;
+
+}
+
 
 .teamimag{
     margin-top: -50px;
     height: 80%;
     width: 30%;
+
+}
+.teamwebimg{
+    height: 50px;
+    width: 60px;
+    margin-top: 10px;
 
 }

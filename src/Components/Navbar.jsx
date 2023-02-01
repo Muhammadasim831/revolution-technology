@@ -1,4 +1,6 @@
-import react, { useState } from 'react';
+import React, { useState } from 'react';
+
+// import { link } from 'react-router-dom';
 
 import './navbar.css';
 
@@ -22,17 +24,13 @@ function Navbar(){
        <nav className='nav'>
         <a href='#' className='nav_brand'> <img src="images/logo12.png" alt="company logo" srcset="" /></a>
         <ul className={active}>
-            <li className="nav_item">
-            {/* <Link to="/" className="nav-link">Home</Link> */}
-                
-                <a href="" className="nav-link">Home</a>
-                
-                </li>
-            <li className="nav_item"><a href="" className="nav-link">About</a></li>
-            <li className="nav_item"><a href="" className="nav-link">Services</a></li>
-            <li className="nav_item"><a href="" className="nav-link">Careers</a></li>           
-            <li className="nav_item"><a href="" className="nav-link">Portfolio</a></li>
-            <li className="nav_item"><a href="../contact/Contact.jsx" className="nav-link">Contact us</a></li>
+            <li className="nav_item"><a href="/" className="nav-link">Home</a> </li>
+            <li className="nav_item"><a href="/about" className="nav-link">About</a></li>
+            <li className="nav_item"><a href="/team" className="nav-link">Our teams</a></li>
+            <li className="nav_item"><a href="/services" className="nav-link">Services</a></li>
+            <li className="nav_item"><a href="/careers" className="nav-link">Careers</a></li>           
+            <li className="nav_item"><a href="/portfolio" className="nav-link">Portfolio</a></li>
+            <li className="nav_item"><a href="/contact" className="nav-link">Contact us</a></li>
 
         </ul>
         <div onClick={navToggle} className={toggleIcon}>

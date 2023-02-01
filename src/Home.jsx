@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from './Components/Navbar';
+
 import Header from './Header';
 import Services from './Services';
 import Leads from './Leads';
@@ -13,7 +13,7 @@ const Home=()=>{
 
     return(
         <>
-    <Navbar/>,
+   
   <Header/>,
 <Services/>,
   <Leads/>,
