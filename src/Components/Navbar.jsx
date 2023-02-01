@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 // import { link } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 import './navbar.css';
 
@@ -24,13 +25,13 @@ function Navbar(){
        <nav className='nav'>
         <a href='#' className='nav_brand'> <img src="images/logo12.png" alt="company logo" srcset="" /></a>
         <ul className={active}>
-            <li className="nav_item"><a href="/" className="nav-link">Home</a> </li>
-            <li className="nav_item"><a href="/about" className="nav-link">About</a></li>
-            <li className="nav_item"><a href="/team" className="nav-link">Our teams</a></li>
-            <li className="nav_item"><a href="/services" className="nav-link">Services</a></li>
-            <li className="nav_item"><a href="/careers" className="nav-link">Careers</a></li>           
-            <li className="nav_item"><a href="/portfolio" className="nav-link">Portfolio</a></li>
-            <li className="nav_item"><a href="/contact" className="nav-link">Contact us</a></li>
+            <li className="nav_item"><NavLink to="/" className="nav-link">Home</NavLink> </li>
+            <li className="nav_item"><NavLink to="/about" className="nav-link">About</NavLink></li>
+            <li className="nav_item"><NavLink to="/team" className="nav-link">Our teams</NavLink></li>
+            <li className="nav_item"><NavLink to="/services" className="nav-link">Services</NavLink></li>
+            <li className="nav_item"><NavLink to="/careers" className="nav-link">Careers</NavLink></li>           
+            <li className="nav_item"><NavLink to="/portfolio" className="nav-link">Portfolio</NavLink></li>
+            <li className="nav_item"><NavLink to="/contact" className="nav-link">Contact us</NavLink></li>
 
         </ul>
         <div onClick={navToggle} className={toggleIcon}>

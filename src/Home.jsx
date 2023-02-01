@@ -8,7 +8,7 @@ import Test from './Test';
 import Expert from './Expert';
 import Solution from './Solution';
 import Form from './Form';
-import Footer from './Footer';
+
 const Home=()=>{
 
     return(
@@ -22,7 +22,7 @@ const Home=()=>{
   <Expert/>,
   <Solution/>,
   <Form/>,
-  <Footer/>
+  
         
         </>
 

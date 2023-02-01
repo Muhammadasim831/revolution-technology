@@ -1,0 +1,26 @@
+#port-container{
+    height: 500px;   
+    background: #FECE3C;
+
+}
+#port-imag1{
+    height: 100%;
+    width: 80%;
+}
+#portrow1{
+    margin-top: 20%;
+}
+#port-para{
+    color: black;
+    font-weight: bold;
+}
+#port-container2{
+    height: 400px;
+  background-color: antiquewhite;
+}
+#port-para2{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+
+}

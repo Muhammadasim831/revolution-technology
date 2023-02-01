@@ -7,6 +7,7 @@ import About from './aboutUs/About';
 import Services from './ourservices/Services';
 import Careers from './careers/Careers';
 import Portfolio from './portfolio/Portfolio';
+import Footer from './Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
                     <Route exact path="/portfolio" element={<Portfolio />} />
                     <Route exact path="/contact" element={<Contact />} />
                 </Routes>
+                < Footer />
             </Router>
         </>
 
