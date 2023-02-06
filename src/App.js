@@ -8,6 +8,7 @@ import Services from './ourservices/Services';
 import Careers from './careers/Careers';
 import Portfolio from './portfolio/Portfolio';
 import Footer from './Footer';
+import Company from './ourcompany/Company';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
                     <Route exact path="/team" element={<Team />} />
                     <Route exact path="/services" element={<Services />} />
                     <Route exact path="/careers" element={<Careers />} />
+                    <Route exact path="/company" element={<Company />} />
                     <Route exact path="/portfolio" element={<Portfolio />} />
                     <Route exact path="/contact" element={<Contact />} />
                 </Routes>

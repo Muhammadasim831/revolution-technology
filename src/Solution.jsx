@@ -1,4 +1,4 @@
-import react from 'react'
+import React from 'react'
 import './Solution.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
