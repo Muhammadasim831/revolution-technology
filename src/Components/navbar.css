@@ -53,8 +53,8 @@ a{
         position: absolute;
         top: 17vh;
         right: 0;
-        width:35% ;
-        height: 50vh;
+        width:40% ;
+        height: 65vh;
         background: rgb(0,28,73);
         flex-direction: column;
         transform: translateX(100%);

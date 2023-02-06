@@ -29,7 +29,8 @@ function Navbar(){
             <li className="nav_item"><NavLink to="/about" className="nav-link">About</NavLink></li>
             <li className="nav_item"><NavLink to="/team" className="nav-link">Our teams</NavLink></li>
             <li className="nav_item"><NavLink to="/services" className="nav-link">Services</NavLink></li>
-            <li className="nav_item"><NavLink to="/careers" className="nav-link">Careers</NavLink></li>           
+            <li className="nav_item"><NavLink to="/careers" className="nav-link">Careers</NavLink></li>
+            <li className="nav_item"><NavLink to="/company" className="nav-link">Company</NavLink> </li>           
             <li className="nav_item"><NavLink to="/portfolio" className="nav-link">Portfolio</NavLink></li>
             <li className="nav_item"><NavLink to="/contact" className="nav-link">Contact us</NavLink></li>
 

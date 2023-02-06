@@ -23,6 +23,9 @@
     width: 60%;
     
   }
+  ::placeholder{
+    color:black !important;
+}
   .sel-form{
     width:60%;
     height: 50px;

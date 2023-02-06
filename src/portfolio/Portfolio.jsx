@@ -28,8 +28,8 @@ const Portfolio = () => {
                     <p id="port-para2">Software development outsourcing is just a tool to achieve business goals. But there is no wayto get
                         worthwhile results without cooperation and trust between a client company.  </p>
                 </div>
-                <div className="row">
-                    <div className="col-sm-12 col-md-4 col-lg-4">
+                <div className="row" >
+                    <div className="col-sm-12 col-md-4 col-lg-4 port-row1" >
                         <h2>All</h2>
 
                         <div className="port-imag">
@@ -44,7 +44,7 @@ const Portfolio = () => {
                         </div>
 
                     </div>
-                    <div className="col-sm-12 col-md-4 col-lg-4">
+                    <div className="col-sm-12 col-md-4 col-lg-4  port-row1">
                         <h2>Web Develoment</h2>
                         <div className="port-imag">
                             <img src="./images/imgport22.png" alt="image" srcset="" className="img-port11" />
@@ -58,9 +58,11 @@ const Portfolio = () => {
                         </div>
 
                     </div>
-                    <div className="col-sm-12 col-md-4 col-lg-4">
-                        <h2>Mobile App</h2>
+                    <div className="col-sm-12 col-md-4 col-lg-4  port-row1">
+                        
+                        
                         <div className="port-imag">
+                        <h2>Mobile App</h2>
                             <img src="./images/imgport33.png" alt="image" srcset="" className="img-port11" />
                             <div>
                                 <img src="./images/portcolor3.png" alt="image" srcset="" className="portcolor1" />

@@ -29,17 +29,19 @@
     margin-top: -45px;
 }
 .btn{
-   
+   margin-top: 2rem;
     background: #FECE3C;
     border-radius: 13px;
-    width: 15% !important;
+    width: 10rem !important;
+    height: 35px;
 
 
     text-align: center;
 }
 .btnrow{
     justify-content: center;
-    margin-top: 15px;
+   
+   
 }
 .contibm{
     height: auto;
