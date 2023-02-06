@@ -27,6 +27,8 @@
 
 .contact-color{
     color: white;
+    text-align: left;
+    margin-left: 10%;
 }
 
 .contact-color-black{
@@ -76,6 +78,7 @@
 }
 
 .contact-input{
+    width: 80%;
     background-color:#5E6D84!important;
     border: none !important;
     color: white;
@@ -108,4 +111,6 @@
 }
 .contact-color2{
     color: rgb(215, 204, 204);
+    text-align: left;
+    margin-left: 10%;
 }

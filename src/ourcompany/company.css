@@ -1,47 +1,33 @@
 #company-countainer{
-    height: auto;
+    height: 500px;
     
-    background-image: url("../image/companybg.png");
+    background-image: url("../image/compn1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-#company-para1{
-    color: white;
-    font-size: 25px;
-    margin-top: 25px;
+#company-countainer22{
+    height: 500px;
+    background-color: white;
 }
-#ompany-h1{
+
+#company-h1{
     color:  white;
+    margin-top: 6%;
 }
-.bg-img{
-    background-image: url("../image/company1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.company-p1{
+    color: white !important;
+    margin-top: 12%;
+}
 
 
-
-}
-.c-height {
-    height: 100px;
-}
-.img-h{
-    margin-top: 10px;
-    margin-right: 15px;
-}
-#row-cen{
-    justify-content: center;
-    margin-top: 20px;
-}
-.h2-color{
-    color: white;
-    margin-top: 15px;
-}
 .contibm{
     height: auto;
     background: rgba(8, 46, 83, 0.03);
     
+}
+.row1-heading{
+    margin-top: 15px;
 }
 
 #company-countainer2{

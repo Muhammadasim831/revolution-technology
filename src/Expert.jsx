@@ -37,7 +37,7 @@ const Expert = () => {
 
                     <div className=" colsm col11 col-sm-12 col-md-2 col-lg-2">
 
-                        <div className="card cardimg1 card-colr1">
+                        <div className="card exp-card cardimg1 card-colr1">
                             <div className="imgcir">
                                 <img src="images/flexbility.png" className='cardimg' alt="flex img" />
                             </div>
