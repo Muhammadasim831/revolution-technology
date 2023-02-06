@@ -1,5 +1,5 @@
 #contact-container{
-    background-image: url("../image/contactbg.png");
+    background-image: url("../image/contactbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -8,7 +8,10 @@
     justify-content: center;
     align-items: center;
 }
-
+.contact_row {
+    text-align: center;
+    background-color: #f7f7f7;
+}
 #contact-container2{
     height: auto;
     background-color: white;
@@ -16,19 +19,29 @@
     margin-bottom: 30px;
     border-radius: 10px;
 }
+.contact-input{
+    height:32%;
+}
+.input{
+    height: 40px!important;
+}
 
 #contact-form{
     background-color:  #26294b;
-    margin-top: 40px;
+    margin-top: 23px;
     margin-right: 4%;
     margin-left: 4%;
-    border-radius: 15px;
+    border-radius: 10px;
+    height: 90%;
 }
-
+::placeholder {
+    color: white!important;
+    opacity: 1; /* Firefox */
+  }
 .contact-color{
     color: white;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 9%;
 }
 
 .contact-color-black{
@@ -43,13 +56,19 @@
     text-align: left !important;
 }
 
-.contact-mar{
+.contact-mar {
     margin-top: 58px;
     margin-left: 3rem;
-    margin-bottom: 20px; 
-    font-weight: bold; 
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    font-weight: 700;
 }
-
+.contact-text{
+    font-size: 13px;
+    color: #625a5a;
+    margin-left: 9%;
+}
 .contact-mar2{
     margin-left: 3rem;
     margin-right: 3rem;
@@ -65,7 +84,7 @@
 }
 
 #contact-pad{
-    padding-top: 25px;
+    padding-top: 6px;
 }
 
 #contact-container3{
@@ -83,6 +102,7 @@
     border: none !important;
     color: white;
     border-radius: 0px !important;
+    width: 80%;
 }
 .contact-p-mar{
     
@@ -101,6 +121,7 @@
 }
 .contact-mar-b{
     margin-bottom: -15px;
+    font-size:15px;
 }
 .m-icon{
     margin-top: 10px;
@@ -110,7 +131,8 @@
     color:white;
 }
 .contact-color2{
-    color: rgb(215, 204, 204);
+    color: rgb(250, 245, 245);
+    font-size: 12px;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 9%;
 }
