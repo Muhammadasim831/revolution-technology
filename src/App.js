@@ -9,6 +9,7 @@ import Careers from './careers/Careers';
 import Portfolio from './portfolio/Portfolio';
 import Footer from './Footer';
 import Company from './ourcompany/Company';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {

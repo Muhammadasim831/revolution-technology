@@ -7,9 +7,71 @@
     background-position: center;
 }
 #company-countainer22{
-    height: 500px;
-    background-color: white;
+    height: 1000px;
+   
+    background-image: url("../image/teambgcir.png");
+    background-repeat: no-repeat;
+    background-size: 900px 900px;
+    background-position: right;
 }
+#company-container33{
+    height: auto;
+
+}
+.company-img22{
+    height: 90%;
+    width: 100%;
+}
+ .company-row1{
+    margin-top: 15%;
+ }
+ .company-row3{
+    margin-top: 10%;
+ }
+
+ #company-elipse52{
+margin-left: -200px;
+
+ }
+ #company-elipse53{
+    margin-left: -70px;
+
+ }
+ .company-h3-img{
+    text-align: justify;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 62px;
+    color: #585858;
+    
+ }
+
+ .company-p3-img{
+text-align: justify;
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 34px;
+padding-right: 4rem;
+color: #585858;
+margin-top: -60px;
+margin-left: -33px;
+ }
+ .company-p33-img{
+    text-align: justify;
+     font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 34px;
+    padding-right: 4rem;
+    color: #585858;
+    margin-top: -60px;
+    margin-left: 100px;
+     }
 
 #company-h1{
     color:  white;
@@ -19,15 +81,55 @@
     color: white !important;
     margin-top: 12%;
 }
+#company-p2{
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+color: #305F76;
+text-align: justify;
+padding-left: 1.5rem;
+padding-bottom: 1.5rem;
+margin-top: 2rem;
+}
+#company-p3{
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 34px;
+color: #305F76;
+text-align: justify;
+padding-left: 1.5rem;
+margin-bottom: 1rem;
+
+}
 
 
+.company-img1{
+    width: 600px;
+    height: 600px;
+    margin-bottom: 20px;
+}
 .contibm{
     height: auto;
     background: rgba(8, 46, 83, 0.03);
     
 }
 .row1-heading{
-    margin-top: 15px;
+    margin-top: 7%;
+
+}
+#row1-h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 99px;
+    
+    color: #305F76;
+    
 }
 
 #company-countainer2{
@@ -40,12 +142,13 @@
 }
 #company-countainer3{
     height: 200px;
-    background: #FECE3C;
+    background:#40596B
 }
 .count3-h3{
     margin-top: 10px;
     font-size: 100px;
     font-weight: bold;
+    color: white;
    
 }
 .count3-p3{
