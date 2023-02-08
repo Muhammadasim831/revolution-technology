@@ -42,7 +42,7 @@ const Company = () => {
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <div id="company-img">
-                                <img src="./images/companyimg111.png" alt="image" srcset="" className="company-img1" />
+                                <img src="./images/companyimg1.1.png" alt="image" srcset="" className="company-img1" />
                             </div>
 
                         </div>

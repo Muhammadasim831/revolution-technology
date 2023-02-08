@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+}
+
 #contact-container{
     background-image: url("../image/contactbg.jpg");
     background-repeat: no-repeat;
@@ -89,6 +95,8 @@
 
 #contact-container3{
     height: 400px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 .contactimag2{

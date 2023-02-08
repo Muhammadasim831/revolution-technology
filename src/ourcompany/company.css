@@ -9,13 +9,17 @@
 #company-countainer22{
     height: 1000px;
    
-    background-image: url("../image/teambgcir.png");
+    background-image: url("../image/Elips47.jpg");
     background-repeat: no-repeat;
-    background-size: 900px 900px;
+    background-size: 1100px 1000px;
     background-position: right;
 }
 #company-container33{
     height: auto;
+    background-image: url("../image/elips49.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 600px;
+    background-position: bottom;
 
 }
 .company-img22{
@@ -141,11 +145,13 @@ margin-bottom: 1rem;
     margin-top: 20px;
 }
 #company-countainer3{
-    height: 200px;
+    height: auto;
     background:#40596B
 }
 .count3-h3{
     margin-top: 10px;
+
+    
     font-size: 100px;
     font-weight: bold;
     color: white;

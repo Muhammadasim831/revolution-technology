@@ -26,7 +26,7 @@ function Navbar(){
         <a href='#' className='nav_brand'> <img src="images/logo12.png" alt="company logo" srcset="" /></a>
         <ul className={active}>
             <li className="nav_item"><NavLink to="/" className="nav-link">Home</NavLink> </li>
-            <li className="nav_item"><NavLink to="/about" className="nav-link">About</NavLink></li>
+            {/* <li className="nav_item"><NavLink to="/about" className="nav-link">About</NavLink></li> */}
             <li className="nav_item"><NavLink to="/team" className="nav-link">Our teams</NavLink></li>
             <li className="nav_item"><NavLink to="/services" className="nav-link">Services</NavLink></li>
             <li className="nav_item"><NavLink to="/careers" className="nav-link">Careers</NavLink></li>
