@@ -9,38 +9,58 @@
 #company-countainer22{
     height: 1000px;
    
-    background-image: url("../image/Elips47.jpg");
+    background-image: url("../image/teambgcir.png");
     background-repeat: no-repeat;
-    background-size: 1100px 1000px;
+    background-size: 900px 900px;
     background-position: right;
 }
+.circle {
+    position: relative;
+   
+    height: 729px;
+    width: 729px;
+    background-color: none;
+    border-radius: 50%;
+    z-index: -99999999999999999999999999999999999999999999999999;
+    margin-top: 8%;
+  }
+  
+  .circle:before {
+    position: absolute;
+    content: '';
+    height: calc(100% + 10px); 
+    width: calc(100% + 10px); 
+    border: 8px dashed #b0aca4;
+
+    left: -173px;
+    border-radius: inherit;
+    animation: spin 45s linear infinite;
+  }
+  
+  @keyframes spin { 
+    100% { 
+      transform: rotateZ(360deg); 
+    }
+  }
 #company-container33{
     height: auto;
-    background-image: url("../image/elips49.jpg");
-    background-repeat: no-repeat;
-    background-size: 1600px 600px;
-    background-position: bottom;
 
 }
 .company-img22{
-    height: 90%;
-    width: 100%;
+    height: 675px;
+    width: 657px;
+  margin-top: 5%;
+  margin-left: -44%;;
 }
  .company-row1{
-    margin-top: 15%;
- }
- .company-row3{
-    margin-top: 10%;
+    margin-top: 5%;
  }
 
- #company-elipse52{
-margin-left: -200px;
 
- }
- #company-elipse53{
-    margin-left: -70px;
+.ourmission {
+    margin-left: 13%;
+}
 
- }
  .company-h3-img{
     text-align: justify;
     font-family: 'Inter';
@@ -52,30 +72,40 @@ margin-left: -200px;
     
  }
 
- .company-p3-img{
-text-align: justify;
- font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 34px;
-padding-right: 4rem;
-color: #585858;
-margin-top: -60px;
-margin-left: -33px;
- }
- .company-p33-img{
+ .company-p3-img {
     text-align: justify;
-     font-family: 'Inter';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 34px;
     padding-right: 4rem;
     color: #585858;
-    margin-top: -60px;
-    margin-left: 100px;
-     }
+    margin-left: 190px;
+    margin-top: -80px;
+}
+.ourteam {
+    left: 2%;
+    /* margin-left: 65px; */
+    margin-top: 45px;
+ 
+}
+.aboutus_row{
+    margin-top: 29px;
+    margin-bottom: 38px;
+}
+.company-p33-img {
+    text-align: justify;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 34px;
+    padding-right: 4rem;
+    color: #585858;
+    margin-left: 168px;
+    margin-top: -75px;
+}
 
 #company-h1{
     color:  white;
@@ -89,7 +119,7 @@ margin-left: -33px;
  font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 50px;
+font-size: 26px;
 line-height: 61px;
 color: #305F76;
 text-align: justify;
@@ -101,7 +131,7 @@ margin-top: 2rem;
  font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
-font-size: 28px;
+font-size: 20px;
 line-height: 34px;
 color: #305F76;
 text-align: justify;
@@ -114,7 +144,7 @@ margin-bottom: 1rem;
 .company-img1{
     width: 600px;
     height: 600px;
-    margin-bottom: 20px;
+    
 }
 .contibm{
     height: auto;
@@ -122,14 +152,14 @@ margin-bottom: 1rem;
     
 }
 .row1-heading{
-    margin-top: 7%;
+    margin-top: 4%;
 
 }
 #row1-h3{
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 82px;
+    font-weight: 600;
+    font-size: 55px;
     line-height: 99px;
     
     color: #305F76;
@@ -150,8 +180,6 @@ margin-bottom: 1rem;
 }
 .count3-h3{
     margin-top: 10px;
-
-    
     font-size: 100px;
     font-weight: bold;
     color: white;
